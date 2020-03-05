@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="antallSpill_value">
+        <item>5</item>
+        <item>10</item>
+        <item>25</item>
+    </string-array>
+
+    <string-array name="spraak"> 
+    <item>@string/norsk</item> 
+    <item>@string/tysk</item> 
+    </string-array>  
+
+    <string-array name="spraakvalg"> 
+        <item>no</item> 
+        <item>de</item> 
+    </string-array>
+
+
+    <string-array name="regneStykker">
+        <item>0 + 4</item>
+        <item>0 + 5</item>
+        <item>1 + 2</item>
+        <item>1 + 8</item>
+        <item>2 + 2</item>
+        <item>2 + 3</item>
+        <item>2 + 7</item>
+        <item>2 + 9</item>
+        <item>3 + 1</item>
+        <item>3 + 4</item>
+        <item>3 + 5</item>
+        <item>4 + 2</item>
+        <item>5 + 4</item>
+        <item>5 + 5</item>
+        <item>5 + 9</item>
+        <item>6 + 4</item>
+        <item>6 + 5</item>
+        <item>7 + 5</item>
+        <item>7 + 7</item>
+        <item>8 + 2</item>
+        <item>8 + 5</item>
+        <item>9 + 0</item>
+        <item>9 + 3</item>
+        <item>9 + 5</item>
+        <item>9 + 7</item>
+    </string-array>
+
+    <integer-array name="fasit">
+        <item>4</item>
+        <item>5</item>
+        <item>3</item>
+        <item>9</item>
+        <item>4</item>
+        <item>5</item>
+        <item>9</item>
+        <item>11</item>
+        <item>4</item>
+        <item>7</item>
+        <item>8</item>
+        <item>6</item>
+        <item>9</item>
+        <item>10</item>
+        <item>14</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>14</item>
+        <item>10</item>
+        <item>13</item>
+        <item>9</item>
+        <item>12</item>
+        <item>14</item>
+        <item>16</item>
+    </integer-array>
+
+</resources>

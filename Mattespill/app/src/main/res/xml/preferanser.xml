@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:key="antallSpill"
+        android:summary="@string/velgAntallSpill"
+        android:title="@string/antallSpill"
+        android:entries="@array/antallSpill_value"
+        android:entryValues="@array/antallSpill_value"
+        android:defaultValue="5">
+    </ListPreference>
+
+    <ListPreference
+        android:key="language"
+        android:title="@string/spraak"
+        android:summary="@string/velgSpraak"
+        android:entries="@array/spraak"
+        android:entryValues="@array/spraakvalg"
+        android:defaultValue="@string/norsk">
+    </ListPreference>
+
+
+
+</PreferenceScreen>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bakgrunn"
+    android:layout_alignParentBottom="true"
+    android:baselineAligned="false">
+
+    <TextView
+        android:id="@+id/overskrift"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:fontFamily="casual"
+        android:text="@string/app_name"
+        android:textColor="#FFAB00"
+        android:textSize="50sp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/main_btn_blue"
+        android:fontFamily="casual"
+        android:text="@string/start_spillet"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/preferanseBtn"
+        android:background="@drawable/main_btn_grey"
+        android:text="@string/velg_preferanser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="casual"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/statistikkBtn"
+        android:background="@drawable/main_btn_orange"
+        android:text="@string/se_statistikk"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_gravity="center_horizontal"
+        android:fontFamily="casual"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center|bottom">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_gravity="bottom|left"
+            android:layout_margin="5dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/cooltxt" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

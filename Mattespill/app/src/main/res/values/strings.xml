@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">PandaMath</string>
+    <string name="start_spillet">Start spillet</string>
+    <string name="velg_preferanser">Preferanser</string>
+    <string name="se_statistikk">Se statistikk</string>
+    <string name="tilbake">tilbake</string>
+    <string name="neste">Neste</string>
+    <string name="antall_riktig">Riktig</string>
+    <string name="antall_feil">"Feil"</string>
+    <string name="skriv_svaret_her">"?"</string>
+    <string name="avslutt">Avslutt</string>
+    <string name="avbryt">Avbryt</string>
+    <string name="dialogtekst">Er du sikker?</string>
+    <string name="spill_igjen">Spill igjen</string>
+    <string name="spilt_ferdig">Det er ikke flere tilgjengelige spørsmål </string>
+    <string name="ok">OK</string>
+    <string name="hjem">Hjem</string>
+    <string name="runde_spill_avslutt">Vil du spille igjen?</string>
+    <string name="runde_avslutt">Du har ingen flere spørsmål!</string>
+    <string name="statistikk">Statistikk</string>
+    <string name="slett">Tøm Statistikk</string>
+    <string name="antallSpill"> Antall spill </string>
+    <string name="velgAntallSpill"> Velg antall spill </string>
+    <string name="spraak">Språk</string>
+    <string name="velgSpraak">Velg språk</string>
+    <string name="norsk">Norsk</string>
+    <string name="tysk">Tysk</string>
+    <string name="ja">Ja</string>
+    <string name="nei">Nei</string>
+    <string name="spill">Spill</string>
+    <string name="tom">TØM</string>
+
+
+</resources>
